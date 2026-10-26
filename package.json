@@ -1,0 +1,14 @@
+{
+  "name": "fullstack-work-sample-ratu-syahirah-khairunnisa",
+  "version": "1.0.0",
+  "description": "Fullstack Development & Business Systems Work Sample (React + Golang Clean Architecture)",
+  "author": "Ratu Syahirah Khairunnisa",
+  "license": "MIT",
+  "scripts": {
+    "install:all": "npm install --prefix frontend",
+    "start": "npm run dev --prefix frontend",
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "backend:run": "cd backend && go run main.go"
+  }
+}

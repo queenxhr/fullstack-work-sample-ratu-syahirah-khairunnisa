@@ -1,0 +1,25 @@
+# Node & Frontend
+node_modules/
+dist/
+.DS_Store
+*.log
+npm-debug.log*
+
+# Golang & Backend
+backend/*.exe
+backend/*.db
+backend/*.db-journal
+backend/data.db
+backend/ecommerce_work_sample.db
+*.exe
+*.test
+*.out
+
+# Environment variables
+backend/.env
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
